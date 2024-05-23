@@ -12,9 +12,14 @@
   });
   equal.addEventListener("click", (e) => {
     if (screen.value === "") {
-      screen.value = "";
-    }else{
-        let answer = eval(screen.value)
+      screen.value = "Please Enter an number";
+    } else {
+      let answer = eval(screen.value);
+      screen.value = answer;
     }
+  });
+
+  clear.addEventListener("click", (e) => {
+    screen.value = "";
   });
 })();
