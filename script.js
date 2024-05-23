@@ -10,4 +10,8 @@
       screen.value += value;
     });
   });
+equal.addEventListener("click",(e)=>{
+    
+})
+
 })();
