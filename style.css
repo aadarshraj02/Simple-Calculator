@@ -64,3 +64,9 @@ button {
 .btn-grey {
   background-color: lightgray;
 }
+.btn-equal {
+  background-color: green;
+}
+.btn-clear {
+  background-color: red;
+}
