@@ -37,4 +37,5 @@ form input {
   color: #fff;
   background-color: #000;
   text-align: right;
+  pointer-events: none;
 }
