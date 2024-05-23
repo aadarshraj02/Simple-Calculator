@@ -57,3 +57,7 @@ button {
   justify-content: space-between;
   padding: 20px;
 }
+.btn-yellow {
+  background-color: rgb(202, 202, 23);
+  color: #fff;
+}
