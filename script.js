@@ -10,8 +10,9 @@
       screen.value += value;
     });
   });
-equal.addEventListener("click",(e)=>{
-    
-})
-
+  equal.addEventListener("click", (e) => {
+    if (screen.value === "") {
+      screen.value = "";
+    }
+  });
 })();
