@@ -27,3 +27,14 @@ body {
   overflow: hidden;
   background-color: #22252d;
 }
+form input {
+  width: 100%;
+  height: 150px;
+  border: none;
+  border-radius: 12px;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #fff;
+  background-color: #000;
+  text-align: right;
+}
