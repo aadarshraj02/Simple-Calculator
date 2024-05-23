@@ -61,3 +61,6 @@ button {
   background-color: rgb(202, 202, 23);
   color: #fff;
 }
+.btn-grey {
+  background-color: lightgray;
+}
