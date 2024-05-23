@@ -50,3 +50,10 @@ button {
   margin: 5px 0;
   border: 1px solid black;
 }
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
